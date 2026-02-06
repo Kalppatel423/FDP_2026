@@ -1,0 +1,71 @@
+body {
+  background: #0f172a;
+  color: #e5e7eb;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: #020617;
+  padding: 25px;
+  width: 350px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+
+h1 {
+  text-align: center;
+  color: #38bdf8;
+}
+
+.balance {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.income-expense {
+  display: flex;
+  justify-content: space-between;
+  background: #020617;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.money.plus {
+  color: #22c55e;
+}
+
+.money.minus {
+  color: #ef4444;
+}
+
+form input {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: #38bdf8;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #1e293b;
+  padding: 8px;
+  margin: 5px 0;
+  display: flex;
+  justify-content: space-between;
+}
